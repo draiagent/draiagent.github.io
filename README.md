@@ -1,7 +1,7 @@
 # draiagent.github.io
 
 [![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](CHANGELOG.md)
 
 > AI Coach 益力康陳董的個人品牌入口網站：AI to Agent 全書目錄、作者介紹與互動課程入口。
 
@@ -14,6 +14,7 @@
 ```text
 draiagent.github.io/
 ├─ index.html      # 品牌入口頁（全書目錄、作者介紹）
+├─ logo.svg       # 益力康 EASY CURE logo
 ├─ ippoo/          # IPPOO 互動課程
 ├─ .nojekyll
 ├─ README.md
@@ -28,6 +29,6 @@ draiagent.github.io/
 
 ## Version
 
-**v1.0.0 — 2026-10-22**
+**v1.1.0 — 2026-10-23**
 
 **AI Coach 益力康陳董 | 2026 AI to Agent**

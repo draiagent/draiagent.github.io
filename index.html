@@ -5,10 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI Coach 益力康陳董</title>
 <meta name="description" content="AI Coach 益力康陳董｜科技 × 商管 × 大健康 × 體育 × 藝術的跨界實踐者。AI to Agent 互動課程與方法論入口。">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg1:#e6f3ff; --bg2:#e3faf5; --bg3:#ffffff;
@@ -103,13 +104,67 @@ footer{padding:48px 0 64px;color:var(--muted);font-size:14px;text-align:center}
 @media (max-width:760px){.course.feature{grid-template-columns:1fr}}
 @media (max-width:480px){.card{padding:18px}.navlinks a{padding:6px 8px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* ===== 黑底風格（與 AI to Agent 新版教材一致） ===== */
+:root{
+  --bg1:#0e0e0e; --bg2:#0e0e0e; --bg3:#0e0e0e;
+  --ink:#f4f4f4; --ink2:#bdbdbd; --muted:#8a8a8a;
+  --blue:#f4f4f4; --sky:#f4f4f4; --cyan:#f4f4f4; --teal:#bdbdbd; --gold:#f4f4f4; --violet:#f4f4f4;
+  --glass:transparent; --glass-strong:transparent;
+  --line:#3a3a3a; --glow:none; --r:0px;
+  --serif:"Noto Serif TC","Songti TC",serif;
+}
+html{color-scheme:dark}
+body{background:#0e0e0e}
+h1,h2,h3,.aname,.pt,.txt b,.dom .t,.kpi b,.links a.big{font-family:var(--serif);font-weight:600;letter-spacing:.04em}
+h1{font-weight:400;letter-spacing:.06em}
+.aname{font-weight:400;letter-spacing:.2em}
+.en{font-family:var(--serif)}
+nav.top{background:rgba(14,14,14,.94);border-bottom-color:#262626}
+.brand img{display:block;height:36px;width:auto}
+.navlinks a{border-radius:0}
+.navlinks a:hover{background:#1c1c1c;color:#fff}
+.eyebrow{color:var(--ink2);letter-spacing:.3em;font-weight:400}
+.card,.part{background:transparent;border:1px solid var(--line);box-shadow:none;border-radius:0;backdrop-filter:none;-webkit-backdrop-filter:none}
+.pill,.tags span{border-radius:0;background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.pill.live{color:#fff}
+.btn{border-radius:0;background:#f4f4f4;color:#000;box-shadow:none;border:1px solid #f4f4f4;letter-spacing:.06em}
+.btn.ghost{background:transparent;color:#f4f4f4;box-shadow:none}
+.btn:hover{opacity:.85}
+a:focus-visible,button:focus-visible{outline:2px solid #fff}
+.filters button{border-radius:0;box-shadow:inset 0 0 0 1px var(--line)}
+.filters button.on{background:#f4f4f4;color:#000}
+.course .bar{display:none}
+.course:hover{transform:none;box-shadow:inset 0 0 0 1px #f4f4f4}
+.course .ic{border-radius:0;background:transparent;box-shadow:inset 0 0 0 1px var(--line)}
+.course .go{color:#fff}
+.course.feature .ippoo span{border-radius:0;box-shadow:inset 0 0 0 1px var(--line)}
+.ph{background:transparent!important;color:var(--ink);border-bottom:1px solid var(--line);margin:0 16px;padding:18px 0 14px}
+.pr{background:transparent;color:var(--ink2);right:0;letter-spacing:.15em;font-weight:400}
+.ps{color:var(--ink2)}
+.part ol{padding:4px 16px 12px;gap:0}
+.ch{background:transparent;border-left:0;border-radius:0;border-top:1px solid #262626;padding:12px 0}
+.part ol li:first-child .ch{border-top:0}
+.ch.link:hover{box-shadow:none;transform:none;opacity:.75}
+.num{background:transparent;color:var(--ink2);width:32px;height:auto;border-radius:0;font-family:var(--serif);font-weight:300;font-size:18px}
+.txt small{color:var(--ink2);font-weight:400}
+.tagx{color:var(--ink);border:1px solid var(--line);padding:0 6px;font-weight:400}
+.arole{color:var(--ink2);font-family:var(--serif);font-weight:400}
+.kpi{border:1px solid var(--line)}
+.kpi b{font-weight:400}
+.links .lk{color:var(--ink2);font-weight:400}
+.links a{color:#fff}
+.hero .slogan b,.hero .slogan i,.fusion b,.hero h1 .accent{color:#fff}
+.hero h1 .accent{border-bottom:1px solid #555}
+.course.feature .ippoo span,.course.feature .ippoo span *{color:#f4f4f4!important}
+footer{color:#7a7a7a;letter-spacing:.1em}
 </style>
 </head>
 <body>
 
 <nav class="top" aria-label="主選單">
   <div class="wrap">
-    <a class="brand" href="#top">AI Coach 益力康陳董</a>
+    <a class="brand" href="#top" aria-label="AI Coach 益力康陳董"><img src="logo.svg" alt="益力康 EASY CURE"></a>
     <div class="navlinks">
       <a href="#courses">課程</a>
       <a href="#book">目錄</a>
